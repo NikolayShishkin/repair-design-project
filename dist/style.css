@@ -1,2 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);body{background:orange}
-h1{font-family:"Roboto";padding:4em}
+@import url(https://fonts.googleapis.com/css?family=Roboto);.page-wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  background: orange; }
+
+.landing-page {
+  height: 838px;
+  width: 1440px;
+  background-color: #131313;
+  border: 1px solid red; }
+
+.projects-page {
+  height: 1815px;
+  width: 1440px;
+  background-color: #131313; }
+h1 {
+  font-family: "Roboto";
+  padding: 4em; }
