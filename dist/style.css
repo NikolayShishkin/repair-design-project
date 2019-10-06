@@ -1,18 +1,2 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);.page-wrapper {
-  margin: 0 auto;
-  width: 1440px;
-  background: orange; }
-
-.landing-page {
-  height: 838px;
-  width: 1440px;
-  background-color: #131313;
-  border: 1px solid red; }
-
-.projects-page {
-  height: 1815px;
-  width: 1440px;
-  background-color: #131313; }
-h1 {
-  font-family: "Roboto";
-  padding: 4em; }
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+a{text-decoration:none}.page-wrapper{margin:0 auto;width:1440px;background:orange}.landing-page-container{height:838px;width:1440px;background-color:#131313;border:1px solid red}.landing-page-header{display:flex}.landing-nav ul{display:flex}.landing-page-content{display:flex}.projects-page-container{height:1815px;width:1440px;background-color:#131313}.online-control-contaier{height:434px;width:817px}.repair-types-container{height:2663px;width:1440px}.questions-container{height:445px;width:883px;background-color:#181818}.map-container{height:954px;width:1440px}
