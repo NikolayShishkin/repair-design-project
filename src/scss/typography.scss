@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-$base-font: 'Roboto';
-$title-padding: 4em;
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@font-face {
+    font-family: "FuturaBookC";
+    src: url("../assets/fonts/Futurabookc.otf") format("opentype");
+}
+@font-face {
+    font-family: "Futurademic";
+    src: url("../assets/fonts/FuturaDemic.otf") format("opentype");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../assets/fonts/ProximaNova.ttf") format("truetype");
+}
 
