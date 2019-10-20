@@ -1263,9 +1263,6 @@ footer{
         margin:0;
     }
 }
-@media (max-width: 1350px) {
-
-}
 @media (max-width: 1240px) {
     .completed-projects-section {
         .projects-slides .projects-slides__info {
@@ -1280,12 +1277,10 @@ footer{
         }
     }
 }
-@media (max-width: 880px) {
+@media (max-width: 850px) {
     .types-of-repair-section .measurements{
         display: none;
     }
-}
-@media (max-width: 850px) {
     .team-section .team-section__people{
         & > div{
             width: 100%;
