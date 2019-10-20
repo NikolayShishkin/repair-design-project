@@ -1,0 +1,46 @@
+@media (max-width: 1240px) {
+    .completed-projects-section {
+        .projects-slides .projects-slides__info {
+            width: 350px;
+        }
+        .projects-slides .projects-slides__visual {
+            width: 500px;
+            flex: 0 0 500px;
+            .project-nav li {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 850px) {
+    .types-of-repair-section .measurements{
+        display: none;
+    }
+    .team-section .team-section__people{
+        & > div{
+            width: 100%;
+            margin:0 10% 120px;
+            &.team-section__item3{
+                margin-bottom: 75px;
+            }
+            &::after{
+                @include after();
+                width: 70px;
+                height: 70px;
+                position: absolute;
+                top:-35px;
+                left:-35px;
+                box-shadow: 0px 3px 10px #E3B87392;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }  
+            .team-section__tblock{
+                padding: 22px 0 0;
+                margin: 102% 11.5% 0;
+                h4{
+                    font-size: $hdrSize;
+                }
+            } 
+        }
+    }
+}
