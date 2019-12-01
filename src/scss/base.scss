@@ -108,6 +108,7 @@ $navFont:'ProximaNova';
         vertical-align: middle;
         }
     span{
+        color: $darkGrayColor;
         position: relative;
         padding-left:25px;
         display:inline-block;
@@ -641,9 +642,10 @@ header{
         max-width: 680px;
         margin:0 auto 90px;
         position: relative;
-        &::before{
+        color: $darkGrayColor;
+/*         &::before{
             @include descr-before();
-        }
+        } */
     }
     .types-of-repair__form{
         margin: 0 auto 140px;
@@ -676,6 +678,7 @@ header{
        @include agreement();              
     }
     .types-of-repair__hdr{
+        color: $darkGrayColor;
         background: url(../assets/images/types.png) no-repeat center bottom;
         @include section-headers();
     }
@@ -895,6 +898,7 @@ header{
     color:C;
     padding-top:152px;
     .design-project-section__hdr{
+        color: $darkGrayColor;
         @include section-headers();
         background: url(../assets/images/des.png) no-repeat center bottom;
         margin:0 auto 23px;
@@ -1007,7 +1011,7 @@ header{
         &.about{
             position: relative;
             max-width: 560px;
-            color:C;
+            color: $darkGrayColor;
             margin-bottom:0;
             &::before{
                 @include descr-before();
@@ -1088,6 +1092,7 @@ header{
         background: url(../assets/images/clients.png) no-repeat center bottom;
     }
     .client-section__descr{
+        color: $grayColor;
         @include descr();
         max-width:350px;
         margin:0 auto 40px;
@@ -1214,9 +1219,13 @@ header{
                 }
             }
             .questions__agreement{
+                color: $whiteColor;
                 @include agreement();
                 text-align: center;
                 margin-bottom:50px;
+                span{
+                    color: white;
+                }
             }
             button{
                 width: 200px;
